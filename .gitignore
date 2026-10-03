@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Output written by detect.py
+report.html
+alerts.json
+
+# macOS
+.DS_Store

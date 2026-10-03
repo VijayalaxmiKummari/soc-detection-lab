@@ -1,0 +1,50 @@
+Oct  3 07:58:12 web01 sshd[1840]: Accepted publickey for alice from 10.0.0.21 port 50212 ssh2
+Oct  3 07:58:12 web01 sshd[1840]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct  3 08:04:40 web01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct  3 08:17:01 web01 CRON[2008]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  3 08:17:01 web01 CRON[2008]: pam_unix(cron:session): session closed for user root
+Oct  3 08:31:02 web01 sshd[1902]: Failed password for bob from 10.0.0.34 port 51877 ssh2
+Oct  3 08:31:09 web01 sshd[1902]: Failed password for bob from 10.0.0.34 port 51877 ssh2
+Oct  3 08:31:20 web01 sshd[1902]: Accepted password for bob from 10.0.0.34 port 51877 ssh2
+Oct  3 09:12:00 web01 sshd[2211]: Failed password for root from 203.0.113.50 port 40112 ssh2
+Oct  3 09:12:05 web01 sshd[2212]: Failed password for root from 203.0.113.50 port 40113 ssh2
+Oct  3 09:12:10 web01 sshd[2213]: Failed password for root from 203.0.113.50 port 40114 ssh2
+Oct  3 09:12:15 web01 sshd[2214]: Failed password for root from 203.0.113.50 port 40115 ssh2
+Oct  3 09:12:20 web01 sshd[2215]: Failed password for root from 203.0.113.50 port 40116 ssh2
+Oct  3 09:12:25 web01 sshd[2216]: Failed password for root from 203.0.113.50 port 40117 ssh2
+Oct  3 09:12:30 web01 sshd[2217]: Failed password for root from 203.0.113.50 port 40118 ssh2
+Oct  3 09:12:35 web01 sshd[2218]: Failed password for root from 203.0.113.50 port 40119 ssh2
+Oct  3 09:17:01 web01 CRON[2009]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  3 09:17:01 web01 CRON[2009]: pam_unix(cron:session): session closed for user root
+Oct  3 10:17:01 web01 CRON[2010]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  3 10:17:01 web01 CRON[2010]: pam_unix(cron:session): session closed for user root
+Oct  3 10:30:00 web01 sshd[2540]: Failed password for invalid user admin from 203.0.113.61 port 38800 ssh2
+Oct  3 10:30:25 web01 sshd[2541]: Failed password for invalid user test from 203.0.113.61 port 38801 ssh2
+Oct  3 10:30:50 web01 sshd[2542]: Failed password for invalid user oracle from 203.0.113.61 port 38802 ssh2
+Oct  3 10:31:15 web01 sshd[2543]: Failed password for invalid user postgres from 203.0.113.61 port 38803 ssh2
+Oct  3 10:31:40 web01 sshd[2544]: Failed password for invalid user ubuntu from 203.0.113.61 port 38804 ssh2
+Oct  3 10:32:05 web01 sshd[2545]: Failed password for invalid user guest from 203.0.113.61 port 38805 ssh2
+Oct  3 10:32:30 web01 sshd[2546]: Failed password for invalid user ftpuser from 203.0.113.61 port 38806 ssh2
+Oct  3 11:02:00 web01 sshd[2790]: Failed password for deploy from 203.0.113.88 port 44020 ssh2
+Oct  3 11:02:09 web01 sshd[2791]: Failed password for deploy from 203.0.113.88 port 44021 ssh2
+Oct  3 11:02:18 web01 sshd[2792]: Failed password for deploy from 203.0.113.88 port 44022 ssh2
+Oct  3 11:02:27 web01 sshd[2793]: Failed password for deploy from 203.0.113.88 port 44023 ssh2
+Oct  3 11:02:36 web01 sshd[2794]: Failed password for deploy from 203.0.113.88 port 44024 ssh2
+Oct  3 11:02:45 web01 sshd[2795]: Failed password for deploy from 203.0.113.88 port 44025 ssh2
+Oct  3 11:03:10 web01 sshd[2797]: Accepted password for deploy from 203.0.113.88 port 44031 ssh2
+Oct  3 11:03:10 web01 sshd[2797]: pam_unix(sshd:session): session opened for user deploy(uid=1003) by (uid=0)
+Oct  3 11:05:44 web01 sudo:   deploy : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Oct  3 11:17:01 web01 CRON[2011]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  3 11:17:01 web01 CRON[2011]: pam_unix(cron:session): session closed for user root
+Oct  3 12:17:01 web01 CRON[2012]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  3 12:17:01 web01 CRON[2012]: pam_unix(cron:session): session closed for user root
+Oct  3 13:17:01 web01 CRON[2013]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  3 13:17:01 web01 CRON[2013]: pam_unix(cron:session): session closed for user root
+Oct  3 14:17:01 web01 CRON[2014]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  3 14:17:01 web01 CRON[2014]: pam_unix(cron:session): session closed for user root
+Oct  3 14:40:03 web01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/useradd -m sysbackup
+Oct  3 14:40:03 web01 useradd[3120]: new user: name=sysbackup, UID=1004, GID=1004, home=/home/sysbackup, shell=/bin/sh, from=/dev/pts/0
+Oct  3 15:17:01 web01 CRON[2015]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  3 15:17:01 web01 CRON[2015]: pam_unix(cron:session): session closed for user root
+Oct  3 16:17:01 web01 CRON[2016]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  3 16:17:01 web01 CRON[2016]: pam_unix(cron:session): session closed for user root
